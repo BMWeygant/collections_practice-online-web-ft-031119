@@ -44,3 +44,9 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  array.each do |element|
+    binding.pry
+    if
+end
