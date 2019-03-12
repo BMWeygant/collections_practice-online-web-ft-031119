@@ -46,10 +46,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |element|
+  array.collect do |element|
     #binding.pry
     if array[1] == element
       element
     else
+      element + "s"
   end
 end
