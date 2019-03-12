@@ -7,4 +7,5 @@ def sort_array_asc(array)
     elsif a > b
       1
     end
+  end
 end
