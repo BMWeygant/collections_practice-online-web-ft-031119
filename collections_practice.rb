@@ -47,6 +47,9 @@ end
 
 def add_s(array)
   array.each do |element|
-    binding.pry
+    #binding.pry
+    if array[1] == element
+      element
+    else
   end
 end
